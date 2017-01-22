@@ -1,0 +1,28 @@
+{"testsiteurl":"http://www.jetblue.com/#/",
+
+  "locators":{
+
+    "loginpage":{
+
+      "username":"email_field",
+      "password":"password_field",
+      "SignIn":"signin_btn"
+
+
+    }
+
+
+
+  },
+
+  "userdetails":{
+
+     "email":"swradha@gmail.com",
+     "passcode":"Sblr2015"
+    
+
+  }
+  
+  
+ 
+}

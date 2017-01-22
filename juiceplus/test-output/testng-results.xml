@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="51" started-at="2016-07-31T02:07:00Z" finished-at="2016-07-31T02:07:00Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="51" started-at="2016-07-31T02:07:00Z" finished-at="2016-07-31T02:07:00Z">
+      <class name="com.automation.juiceplus.juiceplus.AppTest">
+        <test-method status="PASS" signature="testApp()[pri:0, instance:com.automation.juiceplus.juiceplus.AppTest@3e6fa38a]" name="testApp" duration-ms="22" started-at="2016-07-30T21:07:00Z" finished-at="2016-07-30T21:07:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+      </class> <!-- com.automation.juiceplus.juiceplus.AppTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

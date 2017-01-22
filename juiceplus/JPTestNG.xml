@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="JP_Automation" verbose="3" >
+	<!--  <parameter name="browser" value="firefox" />
+  -->
+	<test name="JP_Automationie" preserve-order="true">
+	<parameter name="browser" value="html" />
+		<classes>
+		
+			<class name="com.jp.testscripts.USJuicePlusOrderSuite" > 
+				<!--  <class name="com.jp.testscripts.CANJuicePlusOrderSuite" /> 
+				<class name="com.jp.testscripts.AUJuicePlusOrderSuite" /> 
+			 -->
+
+
+			<!-- <methods>  </methods> -->
+			
+			<!-- <methods> <include name="usjporder"></include>  </methods>
+			<methods> <include name="usjpdiffshipping"></include>  </methods>
+			<methods> <include name="usjpUpdate"></include>  </methods>
+			<methods> <include name="uscontactus"></include>  </methods>
+			<methods> <include name="usjpnewslettersignup"></include>  </methods>
+			<methods> <include name="usjporderpersonalpage"></include>  </methods>
+			<methods> <include name="uscontactpersonalpage"></include>  </methods>
+			<methods> <include name="usppnewslettersignup"></include>  </methods>
+			<methods> <include name="gercontactus"></include>  </methods> 
+			<methods> <include name="aujpUpdate"></include>  </methods> -->
+			 
+			</class>
+			
+			
+		</classes>
+		
+	</test>
+	
+	 <test name="JP_Automationie1" preserve-order="true">
+	<parameter name="browser" value="html" />
+		<classes>
+		
+			<class name="com.jp.testscripts.CANJuicePlusOrderSuite" /> 
+				
+			
+			
+			
+		</classes>
+		
+	</test>
+		
+
+	<test name="JP_Automationie2" preserve-order="true">
+	<parameter name="browser" value="html" />
+		<classes>
+		
+			<class name="com.jp.testscripts.AUJuicePlusOrderSuite" /> 
+				
+			
+			
+			
+		</classes>
+		
+	</test>  
+	
+	  
+	
+	
+	<listeners>
+		<listener class-name="com.jp.listeners.TestListener" />
+	</listeners>
+</suite>
